@@ -300,7 +300,7 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 * post layout images点击放大出现的位置错误
 * home 和 archive 文章图片使用图床时的跨域问题（因为使用javascript优化了加载）
 * 不依赖ruby gems的i18n
-* homepage,请看[demo](https://kejun.space/)
+* homepage,请看[demo](https://m0dulo.github.io/jekyll-theme-materialize/)
 * 配合homepage ，传入友链和links,当博客更新时，homepage也可以更新。
 
 ## License

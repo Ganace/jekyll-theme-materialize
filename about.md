@@ -11,4 +11,4 @@ describe: about page
 
 
 
-欢迎开发者共同[参与](https://github.com/KeJunMao/jekyll-theme-materialize)。
+欢迎开发者共同[参与](https://github.com/m0dulo/jekyll-theme-materialize/issues)。
