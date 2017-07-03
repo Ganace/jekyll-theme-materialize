@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-1-18 17:42:06 +0800
-categories: KeJun
+categories: m0dulo
 image: /assets/images/demo2.jpg
 tags: ruby
 ---

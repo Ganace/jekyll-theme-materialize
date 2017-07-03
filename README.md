@@ -1,44 +1,32 @@
-- jekyll-theme-materialize
-	- [预览](#user-content-预览)
-	- [安装](#user-content-安装)
-		- [使用gem](#user-content-使用gem)
-		- [使用git](#user-content-使用git)
-	- [更新](#user-content-更新)
-	- [用法](#user-content-用法)
-		- [config](#user-content-config)
-		- [post](#user-content-post)
-		- [otherPage](#user-content-otherPage)
-		- [addPage](#user-content-addPage)
-		- [友情链接](#user-content-友情链接)
-		- [myherfs](#user-content-myherfs)
-		- [manyAuthors](#user-content-manyAuthors)
-	- [注意1](#user-content-注意1)
-	- [注意2](#user-content-注意2)
-	- [TODO](#user-content-todo)
-	- [License](#user-content-license)
+---
+layout: post
+title:  "toc test"
+date:   2017-03-04 10:42:06 +0800
+categories: NoImage
+image:
+tags: test
+toc: a
+comments: true
+---
+这个页面用于展示toc的效果，请使用pc或者平板设备插看。（暂不支持home文章显示toc）
 
 # jekyll-theme-materialize
 
 ![](https://ooo.0o0.ooo/2017/03/15/58c9345cdcfdf.png)
 
-[![Build Status](https://travis-ci.org/KeJunMao/jekyll-theme-materialize.svg?branch=master?style=flat-square)](https://travis-ci.org/KeJunMao/jekyll-theme-materialize)
+[![Build Status](https://travis-ci.org/KeJunMao/jekyll-theme-materialize.svg?branch=master)](https://travis-ci.org/KeJunMao/jekyll-theme-materialize)
 
 [![jekyll-theme-materialize Version](https://badge.fury.io/rb/jekyll-theme-materialize.svg)](https://badge.fury.io/rb/jekyll-theme-materialize)
 
-[![discord](https://img.shields.io/badge/discord-jekyll--theme--materialize-blue.svg)](https://discord.gg/JnaQkfz)
-
-[![qq](https://img.shields.io/badge/QQ%20Group-Jekyll%20Materialize-blue.svg)](https://jq.qq.com/?_wv=1027&k=46Ds7oY)
-
 ## 预览
 
-[coding page（中国）](http://kejun.coding.me/jekyll-theme-materialize/)
-[github page](https://kejunmao.github.io/jekyll-theme-materialize/)
+[github page](https://m0dulo.github.io/jekyll-theme-materialize/)
 
 ## 安装
 
 有两种安装方法，一种是gem安装，另一种是`git clone`。
 
-> 主题正在开发阶段建议您使用git clone的方法安装，这样您可以获取最新开发版本，而gem版本是略微稳定或新功能推出、已知bug修复的版本。
+> 建议您使用git clone的方法安装。
 
 ### 使用gem
 
@@ -68,7 +56,7 @@ theme: jekyll-theme-materialize
 ### 使用git
 
 ```bash
-$ git clone https://github.com/KeJunMao/jekyll-theme-materialize.git
+$ git clone git@github.com:m0dulo/jekyll-theme-materialize.git
 $ cd jekyll-theme-materialize
 $ bundle install
 $ bundle exec jekyll s -w
@@ -86,16 +74,16 @@ $ bundle exec jekyll s -w
 将如下内容添加到你Jekyll 的`_config.yml`文件中，请注意替换为你自己的信息：
 
 ```yaml
-title: KeJun | BLOG
-email: kejun1997@gmail.com
+title: m0dulo| BLOG
+email: cuckooegret@gmail.com
 description: 二次元智障
-url: "https://blog.kejun.tk/" 
+url: "https://blog.m0dulo.xyz/" 
 
 # icon
 icon-16x16: images/icon/favicon-16x16.ico
 icon-32x32: images/icon/favicon-32x32.ico
 
-# theme color ,具体的值请参考http://materializecss.com/color.html
+# theme color
 theme-color: { 
   default-color: green, 
   home-color: green,
@@ -113,21 +101,17 @@ mobile-bg: /images/userbg.png   # 背景,若填写theme则使用主题色。
 header-bg: /assets/images/bg.png
 
 # disqus
-disqus-shortname: blog-kejun-tk #disqus shortname
+disqus-shortname: blog-m0dulo-tk #disqus shortname
 
 # cdn
 cdnurl: https://cdnurl.com/ #cdn
 
 #google_analytics
 google_analytics:
-
 #多个作者
-defaultAuthor: KeJun #默认作者
+defaultAuthor: m0dulo #默认作者
 defaultAuthorImage: assets/images/tx.jpg #默认作者头像
 manyAuthors: false
-
-# 是否使用gallery
-gallery: false
 ```
 
 ### post
@@ -137,8 +121,6 @@ gallery: false
 ```yaml
 ---
 layout: post        # 指定模板
-title:  "toc test"
-date:   2017-03-04 10:42:06 +0800
 categories: NoImage # 分类，首页显示,该项经常用于检测是否为post。请注意，每个文章仅支持一个分类。
 image:              # 图像，用于首页，若留空将以NoImage的形式显示, 暂不支持跨域图像。
 tags: jekyll ubuntu # 标签，用于tags页面，允许多个
@@ -155,7 +137,7 @@ author:             # 若指定作者名，请开启多作者功能，否则将�
 
 ```yaml
 ---
-layout: home
+layout: index
 ---
 ```
 
@@ -237,7 +219,7 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 ```yaml
 # 请不要填写太多否则会很丑。
 - name: twitter
-  url: https://twitter.com/yrmkejun
+  url: https://twitter.com/m0dulo_
 
 - name: facebook
   url: 
@@ -252,7 +234,7 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
   url: 
 
 - name: github
-  url: https://github.com/KeJunMao
+  url: https://github.com/m0dulo
 
 - name: linkedin
   url: 
@@ -281,8 +263,6 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 - name: Jekyll
   image: assets/images/links/jianyuyouhun.jpg
 
-- name: Other
-  image: assets/images/links/halyul.png
 
 ```
 
@@ -304,7 +284,7 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 
 ## 注意2
 
-目前，绝大多数本地url添加了前置`baseurl`，如果造成了无法引入的问题，请提出：<a class="github-button" href="https://github.com/KeJunMao/jekyll-theme-materialize/issues">Issue</a>
+目前，绝大多数本地url添加了前置`baseurl`，如果造成了无法引入的问题，请提出：<a class="github-button" href="https://github.com/m0dulo/jekyll-theme-materialize/issues">Issue</a>
 
 ## TODO
 
@@ -314,15 +294,14 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 * 搜索        # 完成
 * 二次元化选项 
 * cdn 支持    # 完成
-* google analytics        # 完成
+* 统计        # 完成
 * 分享
 * 显示作者     #完成
 * post layout images点击放大出现的位置错误
 * home 和 archive 文章图片使用图床时的跨域问题（因为使用javascript优化了加载）
 * 不依赖ruby gems的i18n
-* homepage,请看[demo](https://kejun.space/)，[仓库地址](https://coding.net/u/KeJun/p/homepage/git)。
-* 配合homepage ，传入友链和links,当博客更新时，homepage也可以更新。请看[demo](https://kejun.space/#other),[json](https://coding.net/u/KeJun/p/myblog/git/blob/master/assets/postsAndLinks.json)。
-* gallery 开启与关闭。# 完成
+* homepage,请看[demo](https://kejun.space/)
+* 配合homepage ，传入友链和links,当博客更新时，homepage也可以更新。
 
 ## License
 

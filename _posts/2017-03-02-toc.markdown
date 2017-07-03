@@ -57,7 +57,7 @@ theme: jekyll-theme-materialize
 ### 使用git
 
 ```bash
-$ git clone https://github.com/KeJunMao/jekyll-theme-materialize.git
+$ git clone git@github.com:m0dulo/jekyll-theme-materialize.git
 $ cd jekyll-theme-materialize
 $ bundle install
 $ bundle exec jekyll s -w
@@ -75,10 +75,10 @@ $ bundle exec jekyll s -w
 将如下内容添加到你Jekyll 的`_config.yml`文件中，请注意替换为你自己的信息：
 
 ```yaml
-title: KeJun | BLOG
-email: kejun1997@gmail.com
+title: m0dulo| BLOG
+email: cuckooegret@gmail.com
 description: 二次元智障
-url: "https://blog.kejun.tk/" 
+url: "https://blog.m0dulo.xyz/" 
 
 # icon
 icon-16x16: images/icon/favicon-16x16.ico
@@ -102,7 +102,7 @@ mobile-bg: /images/userbg.png   # 背景,若填写theme则使用主题色。
 header-bg: /assets/images/bg.png
 
 # disqus
-disqus-shortname: blog-kejun-tk #disqus shortname
+disqus-shortname: blog-m0dulo-tk #disqus shortname
 
 # cdn
 cdnurl: https://cdnurl.com/ #cdn
@@ -110,7 +110,7 @@ cdnurl: https://cdnurl.com/ #cdn
 #google_analytics
 google_analytics:
 #多个作者
-defaultAuthor: KeJun #默认作者
+defaultAuthor: m0dulo #默认作者
 defaultAuthorImage: assets/images/tx.jpg #默认作者头像
 manyAuthors: false
 ```
@@ -220,7 +220,7 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 ```yaml
 # 请不要填写太多否则会很丑。
 - name: twitter
-  url: https://twitter.com/yrmkejun
+  url: https://twitter.com/m0dulo_
 
 - name: facebook
   url: 
@@ -235,7 +235,7 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
   url: 
 
 - name: github
-  url: https://github.com/KeJunMao
+  url: https://github.com/m0dulo
 
 - name: linkedin
   url: 
@@ -264,8 +264,6 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 - name: Jekyll
   image: assets/images/links/jianyuyouhun.jpg
 
-- name: Other
-  image: assets/images/links/halyul.png
 
 ```
 
@@ -287,7 +285,7 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 
 ## 注意2
 
-目前，绝大多数本地url添加了前置`baseurl`，如果造成了无法引入的问题，请提出：<a class="github-button" href="https://github.com/KeJunMao/jekyll-theme-materialize/issues">Issue</a>
+目前，绝大多数本地url添加了前置`baseurl`，如果造成了无法引入的问题，请提出：<a class="github-button" href="https://github.com/m0dulo/jekyll-theme-materialize/issues">Issue</a>
 
 ## TODO
 
@@ -304,7 +302,7 @@ footer的各种站点URL,请按如下格式填写至`_data/myherfs.yml`的url即
 * home 和 archive 文章图片使用图床时的跨域问题（因为使用javascript优化了加载）
 * 不依赖ruby gems的i18n
 * homepage,请看[demo](https://kejun.space/)
-* 配合homepage ，传入友链和links,当博客更新时，homepage也可以更新。请看[demo](https://kejun.space/#other)
+* 配合homepage ，传入友链和links,当博客更新时，homepage也可以更新。
 
 ## License
 

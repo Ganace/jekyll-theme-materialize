@@ -2,8 +2,8 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-04-18 17:42:06 +0800
-categories: KeJun
-category: KeJun
+categories: m0dulo
+category: m0dulo
 image: /assets/images/demo2.jpg
 tags: hello jekyll
 ---
