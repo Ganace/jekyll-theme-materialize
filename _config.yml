@@ -1,0 +1,58 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: materialeze theme
+email: cuckooegret@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Best Jekyll materialize theme
+baseurl: "/jekyll-theme-materialize" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+# icon
+icon-16x16: /assets/images/icon/favicon-16x16.ico
+icon-32x32: /assets/images/icon/favicon-32x32.ico
+# theme color
+theme-color: { 
+  default-color: green, 
+  home-color: green,
+  about-color: red,
+  archive-color: pink,
+  links-color: purple,
+  tags-color: blue
+} 
+# mobile nav
+mobile-hp: /assets/images/M.png
+mobile-bg: theme #若填写theme则使用theme-color的值。
+
+# header 背景图片
+header-bg: /assets/images/bg.png
+
+# disqus
+disqus-shortname: m0dulo
+
+# cdn
+cdn: false
+cdnurl: https://jekyll-materialize.b0.upaiyun.com/
+
+#google_analytics
+google_analytics:
+
+# 分享功能
+# todd
+
+#多个作者
+defaultAuthor: m0dulo
+defaultAuthorImage: assets/images/tx.jpg
+manyAuthors: true
+
+# 是否使用gallery
+gallery: false
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
